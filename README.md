@@ -56,3 +56,10 @@ systemctl restart php-fpm
 ```
 systemctl enable php-fpm
 ```
+
+匯出BOX
+```
+vagrant package --base Centos9 --output centos9.box 
+#將虛擬機(Centos9)匯出成BOX(centos9.box)
+```
+
