@@ -23,7 +23,6 @@ dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.r
 
 先安裝remi源
 ```
-dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
 dnf install https://rpms.remirepo.net/enterprise/remi-release-9.rpm
 ```
 
