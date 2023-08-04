@@ -13,6 +13,17 @@
 ![image](https://github.com/leoa12412a/PackVagrant/blob/main/4.PNG)</br></br>
 使用者需要建立一個帳號密碼都為vagrant的使用者
 ![image](https://github.com/leoa12412a/PackVagrant/blob/main/5.PNG)</br></br>
+
+查看selinux狀態
+```
+getenforce
+```
+關閉selinux
+```
+grubby --update-kernel ALL --args selinux=0
+reboot now
+```
+
 必須安裝VirtualBox Guest Additions才能共享資料夾等等功能(參考<a href="https://www.tonystechanditblog.com/2021/04/virtualbox-guest-additions-centos.html">網站</a>)
 ```
 dnf update
